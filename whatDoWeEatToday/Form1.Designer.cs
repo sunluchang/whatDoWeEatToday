@@ -32,8 +32,8 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.fooddd = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.foodNameCH = new System.Windows.Forms.Label();
+            this.foodNameEng = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -76,27 +76,27 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // fooddd
+            // foodNameCH
             // 
-            this.fooddd.Font = new System.Drawing.Font("微软雅黑", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.fooddd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(227)))), ((int)(((byte)(18)))));
-            this.fooddd.Location = new System.Drawing.Point(13, 123);
-            this.fooddd.Name = "fooddd";
-            this.fooddd.Size = new System.Drawing.Size(259, 45);
-            this.fooddd.TabIndex = 2;
-            this.fooddd.Text = " ";
-            this.fooddd.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.foodNameCH.Font = new System.Drawing.Font("微软雅黑", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.foodNameCH.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(227)))), ((int)(((byte)(18)))));
+            this.foodNameCH.Location = new System.Drawing.Point(13, 123);
+            this.foodNameCH.Name = "foodNameCH";
+            this.foodNameCH.Size = new System.Drawing.Size(259, 45);
+            this.foodNameCH.TabIndex = 2;
+            this.foodNameCH.Text = " ";
+            this.foodNameCH.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label2
+            // foodNameEng
             // 
-            this.label2.Font = new System.Drawing.Font("微软雅黑 Light", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label2.Location = new System.Drawing.Point(12, 132);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(260, 26);
-            this.label2.TabIndex = 3;
-            this.label2.Text = " ";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.foodNameEng.Font = new System.Drawing.Font("微软雅黑 Light", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.foodNameEng.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.foodNameEng.Location = new System.Drawing.Point(12, 132);
+            this.foodNameEng.Name = "foodNameEng";
+            this.foodNameEng.Size = new System.Drawing.Size(260, 26);
+            this.foodNameEng.TabIndex = 3;
+            this.foodNameEng.Text = " ";
+            this.foodNameEng.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // 今天吃什么
             // 
@@ -104,8 +104,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(284, 139);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.fooddd);
+            this.Controls.Add(this.foodNameEng);
+            this.Controls.Add(this.foodNameCH);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -126,8 +126,8 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label fooddd;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label foodNameCH;
+        private System.Windows.Forms.Label foodNameEng;
     }
 }
 

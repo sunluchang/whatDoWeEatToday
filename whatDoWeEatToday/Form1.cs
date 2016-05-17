@@ -25,11 +25,11 @@ namespace whatDoWeEatToday
             Random sel = new Random();
             int i = sel.Next(food.Length);
 
-            fooddd.Text = food[i];
-            label2.Text = foodE[i];
+            foodNameCH.Text = food[i];
+            foodNameEng.Text = foodE[i];
 
-            fooddd.Location = new System.Drawing.Point(10, 120);
-            label2.Location = new System.Drawing.Point(10, 155);
+            foodNameCH.Location = new System.Drawing.Point(10, 120);
+            foodNameEng.Location = new System.Drawing.Point(10, 155);
             this.Text = "今天吃什么？" + "-" + food[i];
         }
     }
